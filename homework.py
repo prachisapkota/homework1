@@ -13,7 +13,7 @@ for x in list:
     elif type(x)==str:
         list4.append(x)
     else:
-        sys.exit("unclassified")
-        print("integers:",list2)
-        print("floats:",list3)
-        print("strings:",list4)
+          sys.exit("unclassified")
+print("integers:",list2)
+print("floats:",list3)
+print("strings:",list4)
