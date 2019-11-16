@@ -15,7 +15,7 @@ if input1 == 'A':
     print("\t7. Cube roots.")
     print("\t8. Modulus.\n")
 
-    input2 = input("What type of operation do you want to perform? \t1\t2\t3\t4\t5\t6\t7\t\n")
+    input2 = input("What type of operation do you want to perform? \t1\t2\t3\t4\t5\t6\t7\t8\t\n")
 
     if input2 == '1':
         print("\tFor Addition operation: \n")
@@ -72,7 +72,7 @@ elif input1 == 'B':
     print("3. Celsius to Fahrenheit.")
     print("4. Fahrenheit to Celsius.\n")
 
-    input3 = input("What type of operation do you want to perform? \t1\t2\t3\t4\t5\t6\t7\t\n ")
+    input3 = input("What type of operation do you want to perform? \t1\t2\t3\t4\t\n ")
     if input3 == '1':
         print("\tFor HCF: \n")
         num1 = int(input("\tEnter the first number"))
