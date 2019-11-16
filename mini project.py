@@ -70,9 +70,10 @@ elif input1 == 'B':
     print("1. HCF")
     print("2. LCM")
     print("3. Celsius to Fahrenheit.")
-    print("4. Fahrenheit to Celsius.\n")
+    print("4. Fahrenheit to Celsius.")
+    print("5. Decimal to Binary, Octal or Hexadecimal\n")
 
-    input3 = input("What type of operation do you want to perform? \t1\t2\t3\t4\t\n ")
+    input3 = input("What type of operation do you want to perform? \t1\t2\t3\t4\t5\t\n ")
     if input3 == '1':
         print("\tFor HCF: \n")
         num1 = int(input("\tEnter the first number"))
@@ -99,7 +100,19 @@ elif input1 == 'B':
         print("Temperature in fahrenheit is:", f)
     elif input3 == '4':
         print("\tFor Conversion: \n")
-        print("Fahrenheit to celsisus ")
+        print("Fahrenheit to celsius ")
         fe=int(input("enter the temperature in Fahrenheit"))
         ce=(fe-32)/1.8
         print("Temperature in celsius is:", ce)
+    elif input3 == '5':
+        print("\tFor Conversion: \n")
+        decimal=int(input("enter any decimal value\n"))
+        convert=int(input("Covert into: [1] Binary, [2] Octal [3] Hexadecinal: \n"))
+        if convert == 1:
+            print("Coverted to Binary \n", bin(decimal))
+        elif convert == 2:
+            print("Coverted to Octal \n", oct(decimal))
+        elif convert == 3:
+            print("Coverted to Hexadecimal \n", hex(decimal))
+        else:
+            print("please review your input")
